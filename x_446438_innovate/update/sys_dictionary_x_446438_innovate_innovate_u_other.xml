@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="empno" table="x_446438_innovate_innovate">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_other" table="x_446438_innovate_innovate">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>empno</column_label>
+        <column_label>Other</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,12 +17,12 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>empno</element>
+        <element>u_other</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-05 19:42:36</sys_created_on>
-        <sys_id>3395850e1b03101030657596cc4bcbef</sys_id>
+        <sys_created_on>2020-10-05 11:00:02</sys_created_on>
+        <sys_id>0fd2612b1b23101030657596cc4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>empno</sys_name>
+        <sys_name>Other</sys_name>
         <sys_package display_value="Innovate" source="x_446438_innovate">d9cf39041b03101030657596cc4bcb40</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">d9cf39041b03101030657596cc4bcb40</sys_scope>
-        <sys_update_name>sys_dictionary_x_446438_innovate_innovate_empno</sys_update_name>
+        <sys_update_name>sys_dictionary_x_446438_innovate_innovate_u_other</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-05 20:30:01</sys_updated_on>
+        <sys_updated_on>2020-10-05 11:00:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
